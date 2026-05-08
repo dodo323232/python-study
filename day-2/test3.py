@@ -8,4 +8,4 @@ if(money>ob_money):
     print("500원 동전의 개수:",d)
     print("100원 동전의 개수:",e)
 else:
-    print("금액이 적습니다")    
+    print("금액이 적습니다")
