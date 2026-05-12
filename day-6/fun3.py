@@ -8,3 +8,4 @@ print(price_a) # 할인금액을 뺀 금액
 
 price_a=dis_price(50000,20)
 print(price_a)
+print(price_a)
