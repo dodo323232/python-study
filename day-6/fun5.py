@@ -11,12 +11,13 @@ def manyParam(*args):
 
 print(manyParam(1,2,3,4,5,6,7,8,9,10)) # 55
 print(manyParam(1,2,3,4,5)) # 15
-print("-"*30)
+print('-'*30)
 
 def dictParam(**kwargs):
-    #**kwargs는 여러개의 매개변수를 받으며 딕셔너리 형태로 함수 내부에 전달
-    print(kwargs)
-dictParam(a="A") # {'a':'A'}
-dictParam(x=10,y=20,z=30) # {'x':10, 'y':20, 'z':30}
+    # 몇개의 매개변수를 받을지 모를 때는 변수 앞에 '**'를 붙여준다.
+    print(kwargs) # 딕셔너리로 저장
+    
+dictParam(a="A") # {'a': 'A'}
+dictParam(x=10,y=20,z=30)  # {'x': 10, 'y': 20, 'z': 30}
 print("-"*30)
-#이름이 있는 여러 개의 값을 받을 때 사용하는 문법
+#이름이 있는 여러개의 값을 받을 떄 사용하는 문법
