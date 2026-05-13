@@ -15,7 +15,7 @@ print('-'*30)
 
 def dictParam(**kwargs):
     # 몇개의 매개변수를 받을지 모를 때는 변수 앞에 '**'를 붙여준다.
-    print(kwargs) # 딕셔너리로 저장
+    print(kwargs) # 딕셔너리로 저장ㄴ
     
 dictParam(a="A") # {'a': 'A'}
 dictParam(x=10,y=20,z=30)  # {'x': 10, 'y': 20, 'z': 30}
