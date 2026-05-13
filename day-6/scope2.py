@@ -7,7 +7,7 @@
 # Built-in : 파이썬이 기본적으로 제공하는 내장 함수나 예외 클래스 등 (print, len, input 등)
 
 a = '홍길동' # 전역 변수(global variable)
-b = 99 # 전역 변수(global variable)
+b = 99 # 전역 변수(global variable)ㅇ
 
 def function1():
     a = '이순신' # 지역 변수(local variable) & 중첩 함수 변수
